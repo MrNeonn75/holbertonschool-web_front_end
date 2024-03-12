@@ -1,4 +1,8 @@
-html {scroll-behavior: smooth; font-size: 62.5%;}
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
@@ -7,15 +11,38 @@ body {
     line-height: var(--line-height-base);
 }
 
-a {color: #161616; text-decoration: none;}
-a:link {color: var(--color-black); text-decoration: none;}
-a:visited {font-style: italic;}
-a:hover {text-decoration: underline;}
-a:active {background-color: var(--color-light-grey);}
+a {
+    color: #161616;
+    text-decoration: none;
+}
 
-.visually-hidden {display: none}
-.card-category {color: var(--color-primary);}
-.section-header {text-align: var(--section-header-align);}
+a:link {
+    color: var(--color-black);
+    text-decoration: none;
+}
+a:visited {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    background-color: var(--color-light-grey);
+}
+
+.visually-hidden {
+    display: none
+}
+
+.card-category {
+    color: var(--color-primary);
+}
+
+.section-header {
+    text-align: var(--section-header-align);
+}
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
