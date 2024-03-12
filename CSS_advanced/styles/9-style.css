@@ -7,7 +7,7 @@ body {
     line-height: var(--line-height-base);
 }
 
-a {color: #161616;}
+a {color: #161616; text-decoration: none;}
 .visually-hidden {display: none}
 .card-category {color: var(--color-primary);}
 .section-tagline {color: var(--color-primary);}
