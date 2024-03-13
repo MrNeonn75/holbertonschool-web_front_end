@@ -509,6 +509,18 @@ ul.row {
   color: var(--text-color);
 }
 
+.footer-address {
+    color: var(--text-color);
+}
+
+.social-link {
+    display: block;
+}
+
+.social-link > svg{
+    fill: var(--text-color);
+}
+
 .footer ul {
   text-align: right;
 }
@@ -526,8 +538,7 @@ ul.row {
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
-  --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
